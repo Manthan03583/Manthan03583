@@ -39,4 +39,4 @@ I am a software engineer driven by "painful honesty" in code and a passion for t
 ---
 *"I believe in writing code that is straightforward, polished, and well-thought-out."*
 
-[LinkedIn](https://linkedin.com/in/manthanmoharana) | [Portfolio](https://your-portfolio-link.com) | [Email](mailto:manthanmoharana03583@gmail.com)
+[LinkedIn](https://linkedin.com/in/manthanmoharana) | [Portfolio](https://manthanmoharana.click) | [Email](mailto:manthanmoharana03583@gmail.com)
