@@ -1,42 +1,33 @@
-# 👨‍💻 Manthan Moharana 
+# Manthan Moharana
 
-**Full-Stack Engineer | Python (FastAPI) & React | AI/RAG Specialist**
+**Backend & Systems Software Engineer | Python · FastAPI · PostgreSQL · Docker · Linux**
 
-I am a software engineer driven by "painful honesty" in code and a passion for technical deep-dives. I don't just build features; I enjoy reverse-engineering protocols and optimizing the "unseen" parts of the stack—whether it's WebRTC signaling or vector search retrieval.
+Software Engineer (B.Tech CS) focused on asynchronous backend architectures, distributed task processing, containerized Linux deployments, and automated data/API validation. Currently building low-latency, zero-egress edge telemetry and backend pipelines at **GarageBy Technologies** (STPI / MeitY Pre-Incubated).
 
-### 🔍 Currently "Nerding Out" On:
-* **The Search Engine Ecosystem:** Deep-diving into the complexities of browser fingerprinting, proxy rotation, and the evolution of SERP layouts (preparing for the SerpApi challenge).
-* **AI Security:** Experimenting with circuit breakers for LLMs to prevent prompt injection and data leakage in RAG pipelines.
-* **Ruby on Rails:** Transitioning my backend mental models from Python/FastAPI to the Ruby ecosystem to embrace different architectural philosophies.
-
-### 🏗️ Featured Engineering Deep-Dives
-
-#### [RAG AI Chatbot](https://github.com/Manthan03583/rag-pdf-chatbot)
-* **The Problem:** Standard PDF parsing often loses structural context, leading to poor LLM hallucinations.
-* **The "Nerd" Solution:** Implemented recursive character splitting with a 200-character overlap and integrated ChromaDB for high-precision vector retrieval. 
-* **Tech:** Python, Langchain, Gemini, ChromaDB.
-
-#### [Social Media Backend Platform](https://github.com/Manthan03583/socialmedia-backend)
-* **The Focus:** Reliability and Deployment.
-* **The Infrastructure:** Engineered a production-ready CI/CD pipeline using GitHub Actions, Docker, and NGINX on AWS EC2. Focused on database schema normalization and JWT security.
-* **Tech:** FastAPI, PostgreSQL, AWS, Docker.
-
-#### [Real-Time Video Conferencing](https://github.com/Manthan03583/zoom-clone)
-* **The Challenge:** Handling low-latency peer connections across varying network conditions.
-* **The Insight:** Mastered the WebRTC signaling state machine and peer-to-peer media streaming protocols to ensure sub-second latency.
-* **Tech:** React, Node.js, Socket.io, WebRTC.
-
-### 🛠️ Technical Toolbox
-- **Languages:** Python (Expert), JavaScript/TypeScript (Advanced), SQL, Ruby (Learning)
-- **Frameworks:** FastAPI, React, Node.js, Express, Flutter
-- **Cloud/DevOps:** AWS (EC2), Docker, NGINX, CI/CD, Git
-- **Databases:** PostgreSQL, MongoDB, ChromaDB (Vector)
-
-### 📈 GitHub Stats & Transparency
-![Manthan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Manthan03583&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Manthan03583&layout=compact&theme=radical)
+- **Algorithmic Foundation:** Cleared Google Foobar Challenge (Level 2) · HackerRank Python Gold Badge
+- **Core Stack:** Python (`asyncio`, FastAPI, Celery, Pytest), SQL (PostgreSQL), Redis (Connection Pooling & Lua Scripting), Docker, NGINX, AWS (EC2, RDS, S3), Linux (Ubuntu)
 
 ---
-*"I believe in writing code that is straightforward, polished, and well-thought-out."*
 
-[LinkedIn](https://linkedin.com/in/manthanmoharana) | [Portfolio](https://manthanmoharana.click) | [Email](mailto:manthanmoharana03583@gmail.com)
+### Selected Systems & Backend Architecture
+
+#### 1. High-Throughput Distributed Routing Engine (`qa-routing-engine`)
+- **Architecture:** Asynchronous FastAPI ingress layer backed by `aioredis` connection pooling and decoupled Celery worker queues for background compute offloading.
+- **Reliability & Testing:** Atomic Token-Bucket rate limiting via in-memory Redis Lua scripts to prevent race conditions under concurrent load, paired with automated `pytest` functional and edge-case test suites.
+
+#### 2. Production Social Platform Backend (`socialmedia-backend`)
+- **Architecture:** RESTful service built with FastAPI and normalized PostgreSQL schemas enforcing strict ACID transaction boundaries and JWT authentication.
+- **Infrastructure:** Containerized via Docker with automated GitHub Actions CI/CD pipelines and reverse-proxied through NGINX on AWS EC2.
+
+#### 3. Contextual RAG & Vector Retrieval Pipeline (`rag-pdf-chatbot`)
+- **Architecture:** Document ingestion and semantic retrieval service utilizing Python, FastAPI, structured chunking pipelines, and ChromaDB vector indexing for context-bounded query resolution.
+
+#### 4. Low-Latency WebRTC Signaling Server (`zoom-clone`)
+- **Architecture:** Event-driven WebRTC signaling state machine and peer-to-peer media session negotiation built with TypeScript, Node.js, and Socket.io.
+
+---
+
+### Connect
+- **Portfolio:** [manthanmoharana.click](https://manthanmoharana.click)
+- **LinkedIn:** [://linkedin.com](https://www.://linkedin.com/)
+- **Email:** manthanmoharana03583@gmail.com
